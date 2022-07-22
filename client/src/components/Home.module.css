@@ -1,0 +1,84 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://us.123rf.com/450wm/prettyvectors/prettyvectors1608/prettyvectors160800022/60532577-food-background-pattern-vector-flat-cartoon-illustration.jpg?ver=6);
+}
+
+/* NAV */
+.navbar__container {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    background-color: #EF271B;
+    position: relative;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.navbar__container h1 {
+    font-size: 35px;
+    color: white;
+}
+.navbar__container_selects{
+    display: flex;
+}
+.navbar__container_asc{
+    margin-right: 30px;
+}
+.navbar__container_score{
+    margin-right: 30px;
+}
+.navbar__container select {
+    appearance: none;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 6px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    cursor: inherit;
+    line-height: inherit;
+    font-size: inherit;
+    font-family: inherit;
+}
+.navbar__container__createButton {
+    appearance: none;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 6px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    cursor: inherit;
+    line-height: inherit;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+/* CARD CONTAINER */
+.card__container {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+/* RELOAD BUTTON */
+.button__reload {
+        margin-top: 10px;
+        border-radius: 6px;
+        border: none;
+        padding: 10px;
+        background-color: #2A2C24;
+        color: white;
+        cursor: pointer;
+} 

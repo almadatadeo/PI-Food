@@ -1,0 +1,20 @@
+.landingpage__container {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.landingpage__container button {
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #2A2C24;
+    color: white;
+    cursor: pointer;
+}
